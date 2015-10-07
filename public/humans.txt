@@ -1,4 +1,4 @@
-/* the humans responsible for building NodeNinja.com */
+/* the humans responsible for building NodeNinja.io */
 
 /* TEAM */
   Designer + Coder:      David Chesney
