@@ -2,8 +2,8 @@
   "name": "NodeNinja",
   "fullname": "NodeNinja.io",
   "description": "BoilerPlate Nodejs App for Open Data Projects",
-  "repository": "https://github.com/nodeninja-io/nodeninja",
-  "logo": "https://raw.githubusercontent.com/nodeninja-io/nodeninja/master/images/NodeNinja.png",
+  "repository": "https://github.com/nodeninja-io/boilerplate-app",
+  "logo": "https://raw.githubusercontent.com/nodeninja-io/boilerplate-app/master/images/NodeNinja.png",
   "keywords": [
     "nodeninja",
     "node",

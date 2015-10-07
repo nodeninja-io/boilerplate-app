@@ -342,7 +342,7 @@ module.exports.controller = function (app) {
   app.get('/api/github', passportConf.isAuthenticated, passportConf.isAuthorized, function (req, res) {
     var token = _.find(req.user.tokens, { kind: 'github' });
     var github = new Github({ token: token.accessToken });
-    var repo = github.getRepo('nodeninja-io', 'nodeninja');
+    var repo = github.getRepo('nodeninja-io', 'boilerplate-app');
     repo.show(function (err, repo) {
       res.render('api/github', {
         url: '/apilocked',
