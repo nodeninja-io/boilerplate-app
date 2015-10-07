@@ -1,0 +1,29 @@
+{
+  "name": "NodeNinja",
+  "fullname": "NodeNinja.io",
+  "description": "BoilerPlate Nodejs App for Open Data Projects",
+  "repository": "https://github.com/nodeninja-io/nodeninja",
+  "logo": "https://raw.githubusercontent.com/nodeninja-io/nodeninja/master/images/NodeNinja.png",
+  "keywords": [
+    "nodeninja",
+    "node",
+    "express",
+    "passport",
+    "bootstrap",
+    "fontawesome",
+    "framework"
+  ],
+  "env": {
+    "SESSION_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "2"
+    }
+  },
+  "addons": [
+    "mongolab:shared-single-small"
+  ]
+}

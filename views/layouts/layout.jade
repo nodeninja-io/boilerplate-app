@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/navigation
+    include ../partials/flash
+    block content
+    if url == '/'
+      include ../partials/footer
+    else
+      include ../partials/footerapp
+    block scripts

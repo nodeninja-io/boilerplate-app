@@ -1,0 +1,64 @@
+extends ../layouts/layout
+
+block head
+  title #{application} &middot; Welcome!
+
+  block styles
+    //-link(rel='stylesheet', href='/css/herounit.css')
+  
+  
+block content
+      .jumbotron(style='background:transparent !important')
+          .container
+            .row
+              .col-md-7.col-md-push-5
+                img.center-block.img-responsive(alt='', src='img/drawing.png')
+              .col-md-4.col-md-offset-1.col-md-pull-8
+                ul.fa-ul.visible-md.visible-lg
+                h3(style='font-weight: bold;') #{application} 
+                h3 An Node.js Boilerplate Application
+                p Built by Developers for Developers
+                p Deploy a base application in less than 30 minutes.
+                br
+              
+              
+              
+        .jumbotron
+          .container
+            .row.hidden-xs
+              .col-md-4
+                h4.white
+                  i.fa.fa-group
+                  | &nbsp;&nbsp;Built for you
+                p.white(style='font-size: 18px;')
+                  | #{application} Is built with standard components such as Bootstrap and FontAwesome and is easy to customize.
+              .col-md-4
+                h4.white
+                  i.fa.fa-rocket
+                  | &nbsp;&nbsp;Blazing fast
+                p.white(style='font-size: 18px;')
+                  | #{application} is optimized to ensure fast loading time. Google page speed index of 93/100.
+              .col-md-4
+                h4.white
+                  i.fa.fa-tablet
+                  | &nbsp;&nbsp;On every device
+                p.white(style='font-size: 18px;')
+                  | #{application} is built to look great on every device. Fully responsive for mobile devices to ensure the best user experience.
+                  
+                
+                      
+        .jumbotron(style='background:transparent !important')
+            .container  
+              .row.hidden-xs
+                .col-md-12
+                  h4 #{application}&nbsp;Technology Stack 
+                  hr
+              .row.hidden-xs
+                .col-md-3
+                  img.center-block.img-responsive(alt='', src='img/nodejs.png')
+                .col-md-3
+                  img.center-block.img-responsive(alt='', src='img/jade.png')
+                .col-md-3
+                  img.center-block.img-responsive(alt='', src='img/mongodb.png')
+                .col-md-3
+                  img.center-block.img-responsive(alt='', src='img/express.png')

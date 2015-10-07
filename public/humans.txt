@@ -1,0 +1,16 @@
+/* the humans responsible for building NodeNinja.com */
+
+/* TEAM */
+  Designer + Coder:      David Chesney
+  Site:                  nodeninja.com
+  Contact:               davidchesney[at]nodeninja.io
+  Location:              Newfoundland & Labrador, Canada
+
+/* THANKS */
+  Bootstrap              (http://getbootstrap.com/)
+  jQuery                 (http://jquery.com/)
+  etc.
+
+/* SITE */
+  Standards:             HTML5, CSS3
+  Components:            jQuery, Bootstrap, FontAwesome, etc.
