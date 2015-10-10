@@ -56,7 +56,7 @@ NodeNinja Project
  - cd boilerplate-app (**or whatever you named your application directory**)
 
 + Install node-gyp command line tool
- - Install node-gyp: npm install -g node-gyp
+ - npm install -g node-gyp
 
 + Install local dependencies
  - npm install
