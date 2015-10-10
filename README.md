@@ -46,7 +46,7 @@ Pre-requisites
  - **Mac OS x**: https://www.python.org/downloads/mac-osx/
  - **Windows**: (http://www.python.org/getit/windows/)
 
-NodeNinja Project
+NodeNinja Project Setup
 
 + Install global dependencies
  - npm install -g nodemon gulp mocha
