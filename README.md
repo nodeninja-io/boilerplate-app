@@ -52,8 +52,8 @@ NodeNinja Project
  - npm install -g nodemon gulp mocha
 
 + Clone the repo (and fetch only the latest commits)
- - git clone --depth=1 git@github.com:nodeninja-io/boilerplate-app.git (or simply download the zip file and extract the    project into your application directory)
- - cd boilerplate-app (or whatever you named your application directory)
+ - git clone --depth=1 git@github.com:nodeninja-io/boilerplate-app.git (**or simply download the zip file and extract the    project into your application directory**)
+ - cd boilerplate-app (**or whatever you named your application directory**)
 
 + Install node-gyp command line tool
  - Install node-gyp: npm install -g node-gyp
