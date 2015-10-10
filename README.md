@@ -45,3 +45,26 @@ Pre-requisites
 + Install Python 
  - **Mac OS x**: https://www.python.org/downloads/mac-osx/
  - **Windows**: (http://www.python.org/getit/windows/)
+
+NodeNinja Project
+
++ Install global dependencies
+ - npm install -g nodemon gulp mocha
+
++ Clone the repo (and fetch only the latest commits)
+ - git clone --depth=1 git@github.com:nodeninja-io/boilerplate-app.git
+ - cd boilerplate-app
+
++ Install node-gyp command line tool
+ - Install node-gyp: npm install -g node-gyp
+
++ Install local dependencies
+ - npm install
+ - npm -g install bower
+
++ Start everything up with Gulp (builds the assets and starts the app with nodemon)
+ - gulp
+
+
+
+
