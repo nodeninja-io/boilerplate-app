@@ -58,10 +58,13 @@ NodeNinja Project
 + Install node-gyp command line tool
  - npm install -g node-gyp
 
++ Install bower browser package manager
+ - npm -g install bower
+ 
 + Install local dependencies
  - npm config set python python2.7
  - npm install
- - npm -g install bower
+
 
 + Start everything up with Gulp (builds the assets and starts the app with nodemon)
  - gulp
