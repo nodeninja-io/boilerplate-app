@@ -30,3 +30,18 @@ Features
  + Account Management Module
  + API Examples
  + Boilerplate page templates 
+ + Plus much more
+ 
+Installation
+------------
+
+Pre-requisites
+
++ Install Node.js (http://nodejs.org)
++ Install MongoDB (http://www.mongodb.org/downloads) - However I prefer to use MongoLab (https://mongolab.com). 
++ Install a Command Line Tool (some NPM modules must be compiled)
+ - **Mac OS X**: [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) (or **OS X 10.9 Mavericks**: `xcode-select --install`)
+ - **Windows**: [Visual Studio](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-8)
++ Install Python 
+ - **Mac OS x**: https://www.python.org/downloads/mac-osx/
+ - **Windows**: (http://www.python.org/getit/windows/)
