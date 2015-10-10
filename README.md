@@ -46,7 +46,7 @@ Pre-requisites
  - **Mac OS x**: https://www.python.org/downloads/mac-osx/
  - **Windows**: (http://www.python.org/getit/windows/)
 
-NodeNinja Project
+NodeNinja Project Setup
 
 + Install global dependencies
  - npm install -g nodemon gulp mocha
@@ -81,6 +81,17 @@ NodeNinja Project
 
 + Start everything up with Gulp (builds the assets and starts the app with nodemon)
  - gulp
+
+
+Configuration
+-------------
+
+Note: Before you can start using the application you will need to update your configuration file (config/config.js).  This will need to be completed before you can authenticate using Twitter, Google, Facebook and/or Github.  You will need to create developer accounts with each and fill in your necessary key/secret. 
+
+The config file also includes parameters for APIs that require authentication such as PayPal, Twillio, etc.
+
+For email of account information, fill out the necessary SMTP parameters.
+
 
 
 
