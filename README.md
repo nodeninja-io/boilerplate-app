@@ -59,6 +59,7 @@ NodeNinja Project
  - npm install -g node-gyp
 
 + Install local dependencies
+ - npm config set python python2.7
  - npm install
  - npm -g install bower
 
