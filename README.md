@@ -65,7 +65,19 @@ NodeNinja Project
  - npm config set python python2.7
  - npm install
 
-
++ If you decided to setup a local MongoDB instance skip this step, otherwise follow the steps below for setting up an account with MongoLab for your database
+  - Go to the  [mongolab.com](https://mongolab.com) website
+  - Click the sign-up button
+  - Fill in the user information then click **create account**
+  - From the dashboard click **Create New**
+  - Next click **Single Node** and choose **Sandbox**
+  - Type in your **database name**
+  - Click **Create new MongoDB deployment**
+  - Next create a database user and assign a username and password
+  - Finally from your dashboard you should see a standard URI similiar to: **mongodb://<dbuser>:<dbpassword>@dc027465.mongolab.com:273999/<dbname>**
+  - Copy the URI replacing dbuser and dbpassword with the username and password you assigned to your database
+  - Finally, open config/config.js file in your NodeNinja application directory and find the following configuration parameter **config.mongodb.url**
+  - Replace LOCALHOST with the modified URI that includes your username and password
 + Start everything up with Gulp (builds the assets and starts the app with nodemon)
  - gulp
 
