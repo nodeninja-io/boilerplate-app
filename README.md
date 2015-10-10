@@ -27,10 +27,10 @@ Features
  + OAuth 1.0 Auth via Twitter
  + OAuth 2.0 Auth via Facebook, Github and Google
  + Enhanced Two-Factor Auth 
- + Account Management Module
- + API Examples
- + Boilerplate page templates 
- + Plus much more
+- Account Management Module
+- API Examples
+- Boilerplate page templates (Terms of Use, FAQs, Privacy Policy, About Us) 
+- Plus much more
  
 Installation
 ------------
