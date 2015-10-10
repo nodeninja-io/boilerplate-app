@@ -78,6 +78,7 @@ NodeNinja Project
   - Copy the URI replacing dbuser and dbpassword with the username and password you assigned to your database
   - Finally, open config/config.js file in your NodeNinja application directory and find the following configuration parameter **config.mongodb.url**
   - Replace LOCALHOST with the modified URI that includes your username and password
+
 + Start everything up with Gulp (builds the assets and starts the app with nodemon)
  - gulp
 
