@@ -74,7 +74,7 @@ NodeNinja Project
   - Type in your **database name**
   - Click **Create new MongoDB deployment**
   - Next create a database user and assign a username and password
-  - Finally from your dashboard you should see a standard URI similiar to: **mongodb://<dbuser>:<dbpassword>@ds027465.mongolab.com:273999/<dbname>**
+  - Finally from your dashboard you should see a standard URI similiar to: (mongodb://dbuser:dbpassword@ds027465.mongolab.com:273999/dbname)
   - Copy the URI replacing dbuser and dbpassword with the username and password you assigned to your database
   - Finally, open config/config.js file in your NodeNinja application directory and find the following configuration parameter **config.mongodb.url**
   - Replace LOCALHOST with the modified URI that includes your username and password
