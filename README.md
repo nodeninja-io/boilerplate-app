@@ -1,5 +1,5 @@
 # NodeNinja.io 
-Node.js Boilerplate Application for Hackathons
+Node.js Boilerplate Application for Hackathons (MIT LICENSE)
 
 The NodeNinja Boilerplate Application was developed to help developers jumpstart the application development process. 
 By using NodeNinja a developer could literally save hundreds of hours of programming by re-using the existing code in this project.
