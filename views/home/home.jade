@@ -20,8 +20,10 @@ block content
                 p Built by Developers for Developers
                 p Deploy a base application in less than 1 hour.
                 br
-              
-              
+                p 
+                  iframe(src='https://ghbtns.com/github-btn.html?user=nodeninja-io&repo=boilerplate-app&type=star&count=true', frameborder='0', scrolling='0', width='100px', height='30px')
+                  iframe(src='https://ghbtns.com/github-btn.html?user=nodeninja-io&repo=boilerplate-app&type=watch&count=true&v=2', frameborder='0', scrolling='0', width='100px', height='30px')
+                
               
         .jumbotron
           .container
@@ -37,7 +39,8 @@ block content
                   i.fa.fa-rocket
                   | &nbsp;&nbsp;Blazing fast
                 p.white(style='font-size: 18px;')
-                  | #{application} is optimized to ensure fast loading time. Google page speed index of 93/100.
+                  | #{application} is optimized to ensure fast loading time. This NodeNinja site is running on a $10 a month droplet at 
+                  a.white(href='https://www.digitalocean.com/?refcode=a71767ef6913') Digital Ocean.
               .col-md-4
                 h4.white
                   i.fa.fa-tablet
@@ -55,10 +58,14 @@ block content
                   hr
               .row.hidden-xs
                 .col-md-3
-                  img.center-block.img-responsive(alt='', src='img/nodejs.png')
+                  a(href='https://nodejs.org/en/') 
+                    img.center-block.img-responsive(alt='', src='img/nodejs.png')
                 .col-md-3
-                  img.center-block.img-responsive(alt='', src='img/jade.png')
+                  a(href='http://jade-lang.com/') 
+                    img.center-block.img-responsive(alt='',src='img/jade.png')
                 .col-md-3
-                  img.center-block.img-responsive(alt='', src='img/mongodb.png')
+                  a(href='https://www.mongodb.org/') 
+                    img.center-block.img-responsive(alt='', src='img/mongodb.png')
                 .col-md-3
-                  img.center-block.img-responsive(alt='', src='img/express.png')
+                  a(href='http://expressjs.com/') 
+                    img.center-block.img-responsive(alt='', src='img/express.png')
