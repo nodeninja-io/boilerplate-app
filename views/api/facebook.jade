@@ -14,14 +14,16 @@ block content
       a.btn.btn-primary(href='https://developers.facebook.com/docs/graph-api/quickstart/', rel='external')
         i.fa.fa-check-square-o
         | &nbsp;Quickstart
+      &nbsp;
       a.btn.btn-primary(href='https://developers.facebook.com/tools/explorer', rel='external')
         i.fa.fa-facebook
         | &nbsp;Graph API Explorer
+      &nbsp;
       a.btn.btn-primary(href='https://developers.facebook.com/docs/graph-api/reference/', rel='external')
         i.fa.fa-code-fork
         | &nbsp;API Reference
 
-    h2 My Info
+    h2 My Facebook Information
     img.thumbnail(src='https://graph.facebook.com/#{me.id}/picture?type=large', width='90', height='90')
     h4= me.name
     h5 First Name: #{me.first_name}
@@ -32,5 +34,5 @@ block content
     h5 Locale: #{me.locale}
     h5 Timezone: #{me.timezone}
         
-    h2 Friends
-    h5 Count: #{friends.summary.total_count}
+    //h2 Friends
+    //h5 Count: #{friends.summary.total_count}

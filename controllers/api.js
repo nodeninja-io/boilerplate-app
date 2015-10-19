@@ -63,10 +63,20 @@ module.exports.controller = function (app) {
       },
       transactions: [
         {
-          description: 'ITEM: Something Awesome!',
+        item_list: {
+                      'items': [
+                        {
+                          'name': 'NodeNinja T-Shirt',
+                          'price': '9.99',
+                          'currency': 'CAD',
+                          'quantity': 1
+                        }
+                      ]
+          },
+          description: 'PURCHASE',
           amount: {
-            currency: 'USD',
-            total: '2.99'
+            currency: 'CAD',
+            total: '9.99'
           }
         }
       ]
